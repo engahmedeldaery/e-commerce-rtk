@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes >
-            <Route path='/' element={authUser ? <Main></Main> : <Login></Login>}></Route>
+            <Route path='/e-commerce-rtk' element={authUser ? <Main></Main> : <Login></Login>}></Route>
             <Route path='/FilteredProducts/:type' element={<FilteredProducts></FilteredProducts>}></Route>
             <Route path='/FilteredProducts/:type/:id' element={<SingleProduct></SingleProduct>}></Route>
           </Routes>

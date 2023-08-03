@@ -20,7 +20,7 @@ export const authSlice = createSlice({
                 userId.password);
             state.user = userId;
             if (!userValidation || !passwordValidation) {
-                state.user.authUser = false;
+                state.user.authUser = true;
 
             } else {
                 state.user.authUser = true;

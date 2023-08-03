@@ -44,7 +44,7 @@ const Login = () => {
                     <CardBody className="flex flex-col gap-4">
                         <Input label="Name" value={values.name} onChange={onChange} size="lg" type="text" name="name" />
                         <Input label="Password" size="lg" type="password" value={values.password} onChange={onChange} name="password" />
-                        <Input label="image Url address" size="lg" type="text" value={values.image} onChange={onChange} name="image" />
+                        {/* <Input label="image Url address" size="lg" type="text" value={values.image} onChange={onChange} name="image" /> */}
                         <div className="-ml-2.5">
                             <Checkbox label="Remember Me" />
                         </div>
